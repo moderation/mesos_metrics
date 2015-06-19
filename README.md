@@ -1,3 +1,3 @@
-# Mesos Statistics
+# Mesos metrics snapshot
 
-Go definitions for the `monitor/statistics.json` endpoint.
+Go definitions for the `metrics/snapshot` endpoint.
