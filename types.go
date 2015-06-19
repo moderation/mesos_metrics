@@ -1,6 +1,6 @@
-// Definititions for mesos slave:5051/monitor/statistics.json endpoint.
-// The data is in the form of []Monitor. Collecting the information and
-// unmarshal the JSON into []Monitor will get the data into these structs.
+// Definititions for mesos slave:5051/metrics/snapshot endpoint.
+// The data is in the form of []Metrics. Collecting the information and
+// unmarshal the JSON into []Metrics will get the data into these structs.
 package prometheus_mesos_metrics
 
 type Metrics struct {
