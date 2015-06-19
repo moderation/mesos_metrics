@@ -5,7 +5,7 @@ package mesos_metrics
 
 type Metrics struct {
 	SlaveCpusPercent              float32 `json:"slave/cpus_percent"`
-	SlaveCpousTotal               uint16  `json:"slave/cpus_total"`
+	SlaveCpusTotal                uint16  `json:"slave/cpus_total"`
 	SlaveCpusUsed                 float32 `json:"slave/cpus_used"`
 	SlaveDiskPercent              float32 `json:"slave/disk_percent"`
 	SlaveDiskTotal                uint32  `json:"slave/disk_total"`
