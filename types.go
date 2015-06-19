@@ -1,7 +1,7 @@
 // Definititions for mesos slave:5051/metrics/snapshot endpoint.
 // The data is in the form of []Metrics. Collecting the information and
 // unmarshal the JSON into []Metrics will get the data into these structs.
-package prometheus_mesos_metrics
+package mesos_metrics
 
 type Metrics struct {
 	SlaveCpusPercent              float32 `json:"slave/cpus_percent"`
